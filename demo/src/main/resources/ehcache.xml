@@ -1,0 +1,19 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://www.ehcache.org/ehcache.xsd"
+         updateCheck="false">
+
+    <cache name="employees"
+           maxEntriesLocalHeap="100"
+           timeToLiveSeconds="60">
+    </cache>
+
+    <cache name="departments"
+           maxEntriesLocalHeap="50"
+           timeToLiveSeconds="120">
+    </cache>
+
+    <cache name="projects"
+           maxEntriesLocalHeap="50"
+           timeToLiveSeconds="120">
+    </cache>
+</ehcache>
